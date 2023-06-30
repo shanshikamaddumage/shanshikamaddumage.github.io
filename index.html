@@ -80,6 +80,31 @@
            
         </div>
 
+        <form id="contactform" action="https://formspree.io/f/xwkdewrv" method="POST">
+            <label for="name">*Name:</label>
+            <br>
+
+        <input type="text" name="name" id="name" required>
+        <br>
+        <br>
+        <label for="email">*Email:</label>
+        <br>
+        <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        <br>
+        <br>
+        <label for="mobile">Mobile (optional):</label>
+        <br>
+        <input type="text" name="mobile" id="mobile" pattern="[0-9]">
+        <br>
+        <br>
+        <label for="message">*Leave your message below:</label>
+        <br>
+        <textarea id="message" name="message" rows="5" cols="30" required>
+        <br>
+        <br>
+
+            
+
         <script src="./nav.js"></script>
 
 
